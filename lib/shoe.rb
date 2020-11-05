@@ -20,7 +20,7 @@ class Shoe
 
 
    def cobble
-    @condition = "new"
+    @condition = "new"  # <---- put inside of the cobble method because it describes the condition of the shoe after its cobbled! 
     puts "Your shoe is as good as new!"
    end
 
